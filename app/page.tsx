@@ -1,8 +1,15 @@
+import About from '@/content/about.mdx'
+import styles from '@/app/top.module.css';
+
 export default function Home() {
   return (
     <>
-      <h1>Sample Page</h1>
-      <p>This is sample text.</p>   
+      <div className={styles.container}>
+        <h1 className={styles.page_title}>たちわざり研究室</h1>
+        <div className={styles.page_content}>
+          <About />
+        </div>
+        </div>
     </>
   );
 }
