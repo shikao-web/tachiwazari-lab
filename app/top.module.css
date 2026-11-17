@@ -1,0 +1,45 @@
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_title{
+    margin: 0;
+    padding: 30px auto;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.page_content {
+    margin: 0;
+    padding: 0;
+}
+
+.page_content h1 {
+    font-size: 36px;
+}
+
+.page_content h2 {
+    padding: 0 3px;
+    font-size: 28px;
+}
+
+.page_content p {
+    padding: 0 5px;
+}
+
+.page_content strong {
+    color: #DC143C;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page_content strong {
+    color: #FF3B30;
+  }
+}
